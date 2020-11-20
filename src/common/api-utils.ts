@@ -14,7 +14,7 @@ instance.interceptors.request.use((config: any) => {
   return config;
 });
 
-const getUsers = async () =>
-  await instance.get(`${API_URL}/users`).then(getData);
+const getUsers = async (limit: number) =>
+  await instance.get(`${API_URL}/users?limit=${limit}`).then(getData);
 
 export { getUsers };

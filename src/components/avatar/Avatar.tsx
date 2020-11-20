@@ -10,7 +10,7 @@ type AvatarProps = {
 const Avatar = ({ src, alt }: AvatarProps) => {
   return (
     <div className="pd-c-avatar">
-      <img src={src} alt={`${alt}'s avatar`} />
+      <img src={src} alt={`${alt}'s avatar`} className="pd-c-avatar__img" />
     </div>
   );
 };

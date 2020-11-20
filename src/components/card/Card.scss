@@ -1,6 +1,6 @@
 .pd-c-card {
-  width: 100%;
+  border: var(--pd-border-width) solid #000;
   background: #fff;
-  border-radius: 4px;
+  border-radius: var(--pd-u-border-radius);
   padding: 16px;
 }
