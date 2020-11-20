@@ -1,6 +1,6 @@
 **Master branch is a completed version**
 
-`gco completed-in-time` to see what was completed in time.
+`git checkout completed-in-time` to see what was completed in time.
 
 **run**
 
